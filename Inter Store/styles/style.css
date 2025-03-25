@@ -328,10 +328,9 @@ body {
 
 footer {
     background-color: #ffffff;
-    border-top: 5px solid red;
     padding: 20px;
     text-align: center;
-    padding-top: 100%;
+    top: 100%;
 }
 
 .top_footer {
