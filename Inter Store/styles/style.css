@@ -99,6 +99,7 @@ body {
     margin: 0;
     padding: 0;
     flex-wrap: wrap; /* Faz com que o menu não quebre quando tiver em uma tela menor (Responsividade) */
+    align-items: center;
 }
 
 .header__item {
@@ -110,12 +111,17 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 25px;
     transition: transform 0.3s ease;
 }
 
+#header__help{
+    font-size: 16px;
+}
+
 .header__link:hover {
-    color: black;
+    color: var(--secondary-red);
+    transform: scale(1.1);
 }
 
 /* Sub Header */
@@ -324,10 +330,12 @@ body {
     flex-direction: row;
 }
 
-
+.main__block-ads a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
 
 footer {
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
     text-align: center;
     top: 100%;
