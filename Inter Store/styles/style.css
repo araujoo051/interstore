@@ -124,6 +124,34 @@ body {
     transform: scale(1.1);
 }
 
+/* Search Bar */
+
+.header_searchbar {
+    position: relative;
+    display: inline-block;
+}
+
+.header__searchbar-input {
+    background-color: white;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 400px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.header__searchbar-button {
+    background-color: var(--secondary-red);
+    color: white;
+    position: absolute;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
 /* Sub Header */
 
 .sub-header {
@@ -339,6 +367,60 @@ footer {
     padding: 20px;
     text-align: center;
     top: 100%;
+}
+
+.footer__news {
+    background-color: var(--principal-red);
+    width: 100%;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__news-text {
+    margin-bottom: -1px;
+}
+
+
+.footer__news-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__news-box {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.footer__news-check-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__news-check {
+    width: 15px;
+    height: 15px;
+}
+
+.footer__news-btn {
+    border: none;
+    background-color: var(--secondary-red);
+    height: 35px;
+    border-radius: 5px;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins;
+    cursor: pointer;
 }
 
 .top_footer {
