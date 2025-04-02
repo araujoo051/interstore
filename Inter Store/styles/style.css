@@ -367,11 +367,12 @@ footer {
     padding: 20px;
     text-align: center;
     top: 100%;
+    width: 100%;
 }
 
 .footer__news {
     background-color: var(--principal-red);
-    width: 100%;
+    max-width: 100%;
     padding: 5px;
     color: white;
     text-align: center;
@@ -428,6 +429,7 @@ footer {
     justify-content: center;
     gap: 50px;
     padding: 10px 0;
+    max-width: 100%;
 }
 
 .top_footer div {
@@ -444,4 +446,53 @@ footer {
     height: 40px; 
     border-radius: 50%; 
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+/*Mid footer contonteiner father and childrens*/
+
+#mid__footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 50px;
+    font-family: "Poppins" sans-serif;
+
+
+
+}
+
+li {
+    list-style-type: none;
+  }
+
+.list__footer-socials {
+
+    display: flex;
+    font-size: 25px;
+    gap: 15px;
+    transition: color 0.3s ease-in-out;
+    
+
+}
+
+.list__footer-iconsSocials:hover {
+
+    color: var(--secondary-red);
+
+}
+
+.list__footer-socials a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.list__footer-tittle {
+
+    font-weight: bold;
+
 }
